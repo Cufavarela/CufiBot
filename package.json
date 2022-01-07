@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "dotenv": "^10.0.0",
     "telegraf": "^4.5.2"
-  }
+  },
+  "name": "cufibot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "Cufibot.js",
+  "scripts": {
+    "start": "node Cufibot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cufavarela/CufiBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cufavarela/CufiBot/issues"
+  },
+  "homepage": "https://github.com/Cufavarela/CufiBot#readme",
+  "description": ""
 }
