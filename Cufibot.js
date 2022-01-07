@@ -3,10 +3,10 @@ import { Telegraf } from "telegraf";
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start((ctx) => {
-  ctx.reply("HODAAAAA " + ctx.from.first_name + "!");
+  ctx.reply("Hola " + ctx.from.first_name + "!");
 });
 
-bot.on("Hoda bebe", (ctx) => {
+bot.hears("Hoda bebe", (ctx) => {
   ctx.reply("Tau, mejor me voy a otro lado.");
 });
 
