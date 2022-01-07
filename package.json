@@ -7,6 +7,10 @@
   "version": "1.0.0",
   "type": "module",
   "main": "Cufibot.js",
+  "engines": {
+    "node": "17.3.0",
+    "npm": "8.3.0"
+  },
   "scripts": {
     "start": "node Cufibot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
