@@ -6,8 +6,14 @@ bot.start((ctx) => {
   ctx.reply("Hola " + ctx.from.first_name + "!");
 });
 
-bot.hears("Hoda bebe", (ctx) => {
-  ctx.reply("Tau, mejor me voy a otro lado.");
+bot.hears("palmas?", (ctx) => {
+  ctx.reply(
+    "Y colorín colorado, el que no hace palmas se sienta en el pelado."
+  );
+});
+
+bot.hears("tu vieja", (ctx) => {
+  ctx.reply("En tanga.");
 });
 
 bot.launch();
