@@ -6,10 +6,8 @@ bot.start((ctx) => {
   ctx.reply("Hola " + ctx.from.first_name + "!");
 });
 
-bot.hears("palmas?", (ctx) => {
-  ctx.reply(
-    "Y colorín colorado, el que no hace palmas se sienta en el pelado."
-  );
+bot.hears("Puto", (ctx) => {
+  ctx.reply("El que lee.");
 });
 
 bot.hears("tu vieja", (ctx) => {
