@@ -1,4 +1,5 @@
 import { Telegraf } from "telegraf";
+//Prueba
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.start((ctx) => ctx.reply("Hola Pau, soy el famoso CufiBot!!"));
